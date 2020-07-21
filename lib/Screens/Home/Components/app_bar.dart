@@ -36,7 +36,7 @@ class CustomAppBar extends StatelessWidget {
 //            press: () {},
 //          ),
           DefaultButton(
-            text: "Source Code in Github",
+            text: "Source code on Github",
             press: () {
               js.context.callMethod(
                   "open", ["https://github.com/coder-selvarajan/Thayam"]);

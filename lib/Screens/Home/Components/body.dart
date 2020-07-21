@@ -40,9 +40,9 @@ class Body extends StatelessWidget {
             height: 30,
           ),
           Text(
-            "Soon we are releasing this app on \nApp Store & Google play. Stay tuned!",
+            "We are releasing this app in few weeks time \non App Store & Google play. Stay tuned!",
             style: TextStyle(
-              fontSize: 26,
+              fontSize: 25,
               color: Colors.yellow.withOpacity(0.65),
             ),
           ),
@@ -50,7 +50,7 @@ class Body extends StatelessWidget {
             height: 30,
           ),
           Text(
-            "If you are interested in contributing this project \nplease connect with us here... ",
+            "If you are interested in contributing this project \nplease connect with us on social media.",
             style: TextStyle(
               fontSize: 25,
               color: Colors.black45.withOpacity(0.6),
