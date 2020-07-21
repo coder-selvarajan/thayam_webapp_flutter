@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:thayam_webapp_flutter/Components/default_button.dart';
 import 'dart:js' as js;
 import 'menu_item.dart';
@@ -25,7 +26,13 @@ class CustomAppBar extends StatelessWidget {
       ),
       child: Row(
         children: <Widget>[
-          SizedBox(width: 20),
+          SizedBox(width: 10),
+          Image.asset(
+            'assets/images/logo.png',
+            height: 40.0,
+            fit: BoxFit.cover,
+          ),
+          SizedBox(width: 15),
           Text(
             "Thayam App",
             style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
