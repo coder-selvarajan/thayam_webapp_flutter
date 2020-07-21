@@ -29,7 +29,7 @@ class Body extends StatelessWidget {
           ),
           Text(
             "is a board-game app similar to Ludo, \nbut varies "
-            "in board setup and in pawn movements. \n"
+            "in board setup & pawn movements. \n"
             "This variant is originated from South-India.",
             style: TextStyle(
               fontSize: 25,
@@ -50,14 +50,14 @@ class Body extends StatelessWidget {
             height: 30,
           ),
           Text(
-            "If you are interested to contribute to this project \nplease connect with us. ",
+            "If you are interested in contributing this project \nplease connect with us here... ",
             style: TextStyle(
               fontSize: 25,
               color: Colors.black45.withOpacity(0.6),
             ),
           ),
           SizedBox(
-            height: 40,
+            height: 30,
           ),
           Row(
             mainAxisAlignment: MainAxisAlignment.start,
