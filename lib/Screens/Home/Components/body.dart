@@ -28,8 +28,8 @@ class Body extends StatelessWidget {
             height: 20,
           ),
           Text(
-            "is a board-game app similar to Ludo, \nbut varies "
-            "in board setup & pawn movements. \n"
+            "is a board-game app similar to Ludo, but varies \n"
+            "in board setup, dices, and pawn movements. \n"
             "This variant is originated from South-India.",
             style: TextStyle(
               fontSize: 25,
