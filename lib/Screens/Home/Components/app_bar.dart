@@ -45,8 +45,8 @@ class CustomAppBar extends StatelessWidget {
           DefaultButton(
             text: "Source code on Github",
             press: () {
-              js.context.callMethod(
-                  "open", ["https://github.com/coder-selvarajan/Thayam"]);
+              js.context.callMethod("open",
+                  ["https://github.com/coder-selvarajan/thayam_flutter"]);
             },
           ),
         ],
